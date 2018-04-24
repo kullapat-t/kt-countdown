@@ -1,0 +1,32 @@
+.CountDown {
+
+  border: 1px solid #b7b7b7;
+  margin: 10px;
+
+  &-head {
+    width: 70%;
+    padding: 20px;
+    vertical-align: top;
+  }
+
+  &-records {
+    width: 30%;
+    padding: 20px;
+    vertical-align: top;
+  }
+
+  .Event {
+    .countdown-time {
+      color: brown;
+    }
+  }
+
+  .EventPanel {
+    &-Add {
+      width: 100px;
+      color: #ffffff;
+      background-color: #93c177;
+      border-color: #93c177;
+    }
+  }
+}
